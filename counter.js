@@ -1,5 +1,4 @@
-// Declare number as a global variable so it can be accessed and updated by the functions
-let number = parseInt(document.querySelector('span').innerHTML, 10); // Initialize number from the span element
+let number = parseInt(document.querySelector('span').innerHTML, 10); 
 
 console.log(number); // Log initial value
 number++; // Increment number
